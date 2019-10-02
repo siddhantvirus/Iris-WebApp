@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Iris-Result</title>
+	<link rel='icon' href='/static/favicon.png' type='image/x-icon'/ >
+	<title>Iris Result</title>
+	<style type="text/css">
+		body
+		{
+			text-align: center;
+			background-color: #fbfbfb
+		}	
+		/*embed:hover
+		{
+			background-color:#eeffee;
+		}*/
+	</style>
+
 </head>
 <body>
 	<h1>Result Is: {{result}}</h1>
-	<img src = "/static/{{result}}.jpg" height=100px width="100px" border="">
+	<img src = "/static/{{result}}.jpg" style="width:auto; height:250px;">
 	<!--<iframe src="https://en.wikipedia.org/wiki/Iris_{{result}}" height="500px" width="800px"></iframe>-->
-	<iframe src="/static/{{result}}.txt"></iframe>
+	<!-- <iframe src="/static/{{result}}.txt" width="auto" height="250px"></iframe> -->
+	<embed src="/static/{{result}}.txt" width="450px" height="250px"></embed>
 </body>
 </html>
