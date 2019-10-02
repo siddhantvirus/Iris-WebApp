@@ -16,7 +16,7 @@ def show_result():
 	petal_width=request.form['petal_width']
 	svc=pickle.load(open('svc.pkl','rb'))
 	result=svc.predict([[sepal_length,sepal_width,petal_length,petal_width]])
-	iris=['setosa', 'versicolor', 'virginica']
+	iris=['Setosa', 'Versicolor', 'Virginica']
 	return render_template("result.html",result=iris[result[0]])
 
 if(__name__=="__main__"):
