@@ -1,7 +1,9 @@
 # Iris-WebApp
 
-This Web Application is used to demonstrate a ML model trained on the Iris Dataset from https://archive.ics.uci.edu/ml/datasets/iris
+This Web Application is used to demonstrate a ML model trained on the Iris Dataset from [here](https://archive.ics.uci.edu/ml/datasets/iris)
+
 Predicted attribute: Class of iris plant.
+
 Number of Instances: 150 (50 in each of three classes)
 
 <b>Input :</b>
@@ -35,9 +37,3 @@ To run the web app, please clone the repository and then run
 ```python iris.py``` 
 
 after navigating to the repository folder.
-
-
-
-
-
-
